@@ -31,7 +31,13 @@ software (http://www.bittysoftware.com/apps/bitty_controller.html).
 Both softwares use the A and B buttons on the Micro:bit as digital paddle controls - connect P0 and P1 Micro:bit pins
 to the up/down inputs on the ATMEGA328P. You will also need a connection between Micro:bit GND and the 0V rail of the ATMEGA circuit.
 
+**Stripboard version**
+
 ![Image](bitpong.jpg)
+
+The header pins on the left are for the paddle potentiometers. The green terminals on the right are for the alternative digital inputs from the Microbits, and the large component to the left of the terminals is an LM1117 providing 3.3V from the 5V USB input to power the microbits.
+
+The DIP switches set ball speed, paddle size, bounce angles and the added option to choose between analogue or digital paddles. The two buttons are game reset (right) and game select (left).
 
 Have fun!
 
