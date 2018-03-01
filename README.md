@@ -31,7 +31,7 @@ software (http://www.bittysoftware.com/apps/bitty_controller.html).
 Both softwares use the A and B buttons on the Micro:bit as digital paddle controls - connect P0 and P1 Micro:bit pins
 to the up/down inputs on the ATMEGA328P. You will also need a connection between Micro:bit GND and the 0V rail of the ATMEGA circuit.
 
-More pictures and notes to follow.
+![Image](bitpong.png)
 
 Have fun!
 
