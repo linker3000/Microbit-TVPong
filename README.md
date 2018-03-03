@@ -24,12 +24,20 @@ There's also some consts and variables to support alternate pin definitions and 
 see the source code comments. The comments also include some important information about the AVR fuse settings and supported
 Arduino IDE versions (1.6).
 
-2) The microbit-paddles* files are the .hex firmware for the Micro:bits. There's a standard one and a -bt version that ALSO
-supports controlling the Micro:bit from a bluetooth-paired device - tested with a Samsung Galaxy S7 and the Bitty controller
-software (http://www.bittysoftware.com/apps/bitty_controller.html).
+2) The microbit-paddles* and microbit-radio files
 
-Both softwares use the A and B buttons on the Micro:bit as digital paddle controls - connect P0 and P1 Micro:bit pins
-to the up/down inputs on the ATMEGA328P. You will also need a connection between Micro:bit GND and the 0V rail of the ATMEGA circuit.
+There are two game controller (paddles) files and one remote control file. These files are ready to upload to a microbit, or import into the makecode environment for examination and modification:
+
+The 'paddles' files use the A and B buttons on the Micro:bit as digital paddle controls - connect P0 and P1 Micro:bit pins
+to the up/down inputs on the ATMEGA328P. You will also need a connection between Micro:bit GND and the 0V rail of the ATMEGA circuit. The prototype pon board in the image below also had a 3V regulator to supply power to the micro:bits - alternatively you could use a battery pack or USB (but that leads to a bit of a mess of cables!)
+
+* The paddles-bt file supports controlling the Micro:bit from both the A B buttons and a bluetooth-paired device - tested with a Samsung Galaxy S7 and the Bitty controller software (http://www.bittysoftware.com/apps/bitty_controller.html).
+
+* The paddle-with-radio file uses the A B buttons AND supports a remote control micro:bit connected via the micro:bit's internal radio so that you can play pong without wires! Simply program a second micro:bit with the microbit-Radio-remote.hex file.
+
+When first started, the radio-enabled paddles will ask you to choose whether they are paddle A or paddle B - hold down the relevant button until the choice is registered. Likewise with the remote control micro:bit - select A or B on startup.
+
+*For a bit of fun, you can have multiple A or B remote control micro:bits for a team tug of war!*
 
 **Stripboard version**
 
