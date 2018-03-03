@@ -39,6 +39,9 @@ to the up/down inputs on the ATMEGA328P. You will also need a connection between
 
 * The paddle-with-radio file uses the A B buttons AND supports a remote control micro:bit connected via the micro:bit's internal radio so that you can play pong without wires! Simply program a second micro:bit with the microbit-radio-remote.hex file.
 
+![Image](microbits.jpg)
+** Micro:bit wired digital paddle and battery-operated remote micro:bit**
+
 When first started, the radio-enabled paddles will ask you to choose whether they are paddle A or paddle B - hold down the relevant button until the choice is registered. Likewise with the remote control micro:bits - Press and hold A or B on startup so that you have a remote control for each paddle. All radio comms is via micro:bit radio group 16.
 
 To differentiate the two micro:bit types, the paddles display 'PAD!' on startup, and the remote controls show 'RMT!'
