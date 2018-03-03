@@ -53,7 +53,7 @@ To differentiate the two micro:bit types, the paddles display 'PAD!' on startup,
 
 ![Image](bitpong.jpg)
 
-The header pins on the left are for the paddle potentiometers. The green terminals on the right are for the alternative digital inputs from the Microbits, and the large component to the left of the terminals is an LM1117 providing 3.3V from the 5V USB input to power the microbits.
+The header pins on the left are for the paddle potentiometers (not used for this application). The green terminals on the right are for the alternative digital inputs from the micro:bits, and the large component to the left of the terminals is an LM1117 providing 3.3V from the 5V USB input to power the micro:bits.
 
 The DIP switches set ball speed, paddle size, bounce angles and the added option to choose between analogue or digital paddles. The two buttons are game reset (right) and game select (left).
 
