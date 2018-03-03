@@ -10,6 +10,8 @@ The above page also has details of the microcontroller circuit that forms the ba
 
 The aim was to produce a fun game that could be used in STEM coding workshops using BBC Micro:bits as digital game paddles.
 
+Video: https://youtu.be/jDqk6mIApZk
+
 This repo comprises:
 
 1) The modified Pong code, which supports the following additional inputs to the ATMEGA:
