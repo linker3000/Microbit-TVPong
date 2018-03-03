@@ -49,4 +49,8 @@ The header pins on the left are for the paddle potentiometers. The green termina
 
 The DIP switches set ball speed, paddle size, bounce angles and the added option to choose between analogue or digital paddles. The two buttons are game reset (right) and game select (left).
 
+**Schematic**
+
+![Image](microbit-pong-schematic.png)
+
 Have fun!
