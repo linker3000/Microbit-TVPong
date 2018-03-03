@@ -37,7 +37,7 @@ to the up/down inputs on the ATMEGA328P. You will also need a connection between
 
 * The paddle-bt file supports controlling the Micro:bit from both the A B buttons and a bluetooth-paired device - tested with a Samsung Galaxy S7 and the Bitty controller software (http://www.bittysoftware.com/apps/bitty_controller.html).
 
-* The paddle-with-radio file uses the A B buttons AND supports a remote control micro:bit connected via the micro:bit's internal radio so that you can play pong without wires! Simply program a second micro:bit with the microbit-radio-remote.hex file.
+* The paddle-with-radio file uses the A B buttons AND supports a remote control micro:bit connected using the inbuilt radio so that you can play pong without wires! Simply program a second micro:bit with the microbit-radio-remote.hex file.
 
 ![Image](microbits.jpg)
 ** Micro:bit wired digital paddle and battery-operated remote micro:bit**
