@@ -2,6 +2,8 @@
 
 Play the classic Pong game on a TV (composite video) - using BBC Microbits as paddles. Bluetooth also supported!
 
+![Image](onscreen.jpg)
+ 	
 This is Grant Searle's fantastic Pong game for the Atmel/Microchip ATMEGA328P, modified to also support digital up/down paddles.
 
 Original code at: http://searle.hostei.com/grant/AVRPong/index.html
