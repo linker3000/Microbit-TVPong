@@ -18,10 +18,10 @@ This repo comprises:
 
 1) The modified Pong code, which supports the following additional inputs to the ATMEGA:
 
-* Pin D0 = Left player UP
-* Pin D1 = Left player DOWN
-* Pin D2 = Right player UP
-* Pin D3 = Right player DOWN
+* Pin D0 = Left player DOWN
+* Pin D1 = Left player UP
+* Pin D2 = Right player DOWN
+* Pin D3 = Right player UP
 * Pin A2 = Analogue / Digital paddles select (no connection = analogue, pin to GND = digital)
 
 There's also some consts and variables to support alternate pin definitions and to change the digital paddle movement speed -
