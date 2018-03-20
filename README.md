@@ -57,7 +57,7 @@ The header pins on the left are for the paddle potentiometers (not used for this
 
 The DIP switches set ball speed, paddle size, bounce angles and the added option to choose between analogue or digital paddles. The two buttons are game reset (right) and game select (left).
 
-The code for the game can be uploaded to an Arduino Uno if you don't want to build your circuit from scratch. There's also ready-made boards that hold just the 328P - eg: the Bitsbox "Barebones 'Duino PCB" (https://www.bitsbox.co.uk) 
+The code for the game can be uploaded to an Arduino Uno if you don't want to build your circuit from scratch. There's also ready-made boards that hold just the 328P - eg: the Bitsbox "Barebones 'Duino PCB" (https://www.bitsbox.co.uk/index.php?main_page=product_info&cPath=255_313&products_id=3297) 
 
 **Schematic**
 
