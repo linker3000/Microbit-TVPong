@@ -35,9 +35,17 @@ There are two game controller (paddles) files and one remote control file. These
 The 'paddle' files use the A and B buttons on the micro:bit as digital paddle controls - connect micro:bit pins P0 and P1 
 to the up/down inputs on the ATMEGA328P. You will also need a connection between micro:bit GND and the 0V rail of the ATMEGA circuit. The prototype pong board in the image below also has a 3V regulator to supply power to the micro:bits - alternatively you could use a battery pack or USB (but that leads to a bit of a mess of cables!)
 
-* The paddle-bt file supports controlling the Micro:bit from both the A B buttons and a bluetooth-paired device - tested with a Samsung Galaxy S7 and the Bitty controller software (http://www.bittysoftware.com/apps/bitty_controller.html).
+---
 
-* The paddle-with-radio file uses the A B buttons AND supports a remote control micro:bit connected using the inbuilt radio so that you can play pong without wires! Simply program a second micro:bit with the microbit-radio-remote.hex file.
+The **paddle-bt** file lets the Micro:bit be controlled either from its A/B buttons or from a Bluetooth-paired phone. It responds to the micro:bit's standard Bluetooth D-pad events (MES_DPAD_CONTROLLER_ID): button 1 moves the paddle one way and button 2 the other, mirroring the B and A buttons.
+
+It was originally tested with a Samsung Galaxy S7 running Bitty Controller, which is no longer available. Any app that sends standard micro:bit D-pad events should work instead. One option is the free HOVER:BIT web app (https://jakobst1n.github.io/microbit-gamepad/), which runs in Chrome on Android.
+
+The **paddle-with-radio** file uses the A B buttons AND supports a remote control micro:bit connected using the inbuilt radio so that you can play pong without wires! Simply program a second micro:bit with the microbit-radio-remote.hex file.
+
+These projects were built in MakeCode for micro:bit, and dragging a .hex file onto makecode.microbit.org opens the editable blocks.
+
+---
 
 ![Image](microbits.jpg)
 
