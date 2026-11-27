@@ -6,7 +6,7 @@ Play the classic Pong game on a TV (composite video) - using BBC micro:bits as p
  	
 This is Grant Searle's fantastic Pong game for the Atmel/Microchip ATMEGA328P, modified to also support digital up/down paddles.
 
-Original code at: http://searle.hostei.com/grant/AVRPong/index.html
+Original code at: [Internet Archive link](https://web.archive.org/web/20211114205256fw_/http://searle.x10host.com/AVRPong/index.html)
 
 The above page also has details of the microcontroller circuit that forms the basis of this project (with additions).
 
